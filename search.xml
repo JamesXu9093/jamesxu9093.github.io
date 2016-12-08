@@ -10,6 +10,8 @@
 <h1 id="Emphasis"><a href="#Emphasis" class="headerlink" title="Emphasis"></a>Emphasis</h1><p><em>This text will be italic</em><br><em>This will also be italic</em></p>
 <p><strong>This text will be bold</strong><br><strong>This will also be bold</strong></p>
 <p><em>You <strong>can</strong> combine them</em></p>
+<table><tr><td bgcolor="orange">背景色是：orange</td></tr></table>
+
 <h1 id="Lists"><a href="#Lists" class="headerlink" title="Lists"></a>Lists</h1><h2 id="Unordered"><a href="#Unordered" class="headerlink" title="Unordered"></a>Unordered</h2><ul>
 <li>Item 1</li>
 <li>Item 2<ul>
