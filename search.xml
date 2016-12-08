@@ -67,6 +67,24 @@
 </tr>
 </tbody>
 </table>
+<h2 id="Tables2"><a href="#Tables2" class="headerlink" title="Tables2"></a>Tables2</h2><table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content from cell 1</td>
+<td>Content from cell 2</td>
+</tr>
+<tr>
+<td>Content in the first column</td>
+<td>Content in the second column</td>
+</tr>
+</tbody>
+</table>
 ]]></content>
     </entry>
     
