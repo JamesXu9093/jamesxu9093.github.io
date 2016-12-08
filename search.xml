@@ -27,7 +27,8 @@
 </ul>
 </li>
 </ol>
-<table float="left"><tr><td bgcolor="orange">背景色是：orange</td></tr></table>
+<p>大撒三打哈快速打击  </p>
+<table><tr float="left"><td bgcolor="orange">背景色是：orange</td></tr></table>
 
 <h1 id="Images"><a href="#Images" class="headerlink" title="Images"></a>Images</h1><p><img src="/images/logo.png" alt="GitHub Logo"><br>Format: <img src="url" alt="Alt Text"><br><img src="/img/littleboy.png" alt="littleboy Logo"><br><img src="/blog-img/1209-1.png" alt=""></p>
 <h1 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h1><p><a href="http://github.com" target="_blank" rel="external">http://github.com</a> - automatic!<br><a href="http://github.com" target="_blank" rel="external">GitHub</a></p>
