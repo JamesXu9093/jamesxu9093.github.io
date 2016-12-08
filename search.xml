@@ -10,8 +10,6 @@
 <h1 id="Emphasis"><a href="#Emphasis" class="headerlink" title="Emphasis"></a>Emphasis</h1><p><em>This text will be italic</em><br><em>This will also be italic</em></p>
 <p><strong>This text will be bold</strong><br><strong>This will also be bold</strong></p>
 <p><em>You <strong>can</strong> combine them</em></p>
-<table><tr><td bgcolor="orange">1. 背景色是：orange</td></tr></table>
-
 <h1 id="Lists"><a href="#Lists" class="headerlink" title="Lists"></a>Lists</h1><h2 id="Unordered"><a href="#Unordered" class="headerlink" title="Unordered"></a>Unordered</h2><ul>
 <li>Item 1</li>
 <li>Item 2<ul>
@@ -29,7 +27,12 @@
 </ul>
 </li>
 </ol>
-<h1 id="Images"><a href="#Images" class="headerlink" title="Images"></a>Images</h1><p><img src="/images/logo.png" alt="GitHub Logo"><br>Format: <img src="url" alt="Alt Text"><br><img src="/img/littleboy.png" alt="littleboy Logo"><br><img src="/blog-img/1209-1.png" alt="qqjietu"></p>
+<ol>
+<li><table><tr><td bgcolor="orange">背景色是：orange</td></tr></table>
+
+</li>
+</ol>
+<h1 id="Images"><a href="#Images" class="headerlink" title="Images"></a>Images</h1><p><img src="/images/logo.png" alt="GitHub Logo"><br>Format: <img src="url" alt="Alt Text"><br><img src="/img/littleboy.png" alt="littleboy Logo"><br><img src="/blog-img/1209-1.png" alt=""></p>
 <h1 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h1><p><a href="http://github.com" target="_blank" rel="external">http://github.com</a> - automatic!<br><a href="http://github.com" target="_blank" rel="external">GitHub</a></p>
 <h1 id="Blockquotes"><a href="#Blockquotes" class="headerlink" title="Blockquotes"></a>Blockquotes</h1><p>As Kanye West said:</p>
 <blockquote>
