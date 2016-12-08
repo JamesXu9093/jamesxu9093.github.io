@@ -27,9 +27,6 @@
 </ul>
 </li>
 </ol>
-<p>大撒三打哈快速打击  </p>
-<tr float="left"><td bgcolor="orange">背景色是：orange</td></tr>
-
 <h1 id="Images"><a href="#Images" class="headerlink" title="Images"></a>Images</h1><p><img src="/images/logo.png" alt="GitHub Logo"><br>Format: <img src="url" alt="Alt Text"><br><img src="/img/littleboy.png" alt="littleboy Logo"><br><img src="/blog-img/1209-1.png" alt=""></p>
 <h1 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h1><p><a href="http://github.com" target="_blank" rel="external">http://github.com</a> - automatic!<br><a href="http://github.com" target="_blank" rel="external">GitHub</a></p>
 <h1 id="Blockquotes"><a href="#Blockquotes" class="headerlink" title="Blockquotes"></a>Blockquotes</h1><p>As Kanye West said:</p>
@@ -65,7 +62,10 @@
 </tr>
 </tbody>
 </table>
-]]></content>
+<font face="黑体">我是黑体字</font><br><font face="微软雅黑">我是微软雅黑</font><br><font face="STCAIYUN">我是华文彩云</font><br><font color="#0099ff" size="7" face="黑体">color=#0099ff size=72 face=”黑体”</font><br><font color="#00ffff" size="72">color=#00ffff</font><br><font color="gray" size="72">color=gray</font>
+
+<p>大撒三打哈快速打击  </p>
+<table><tr><td bgcolor="black">背景色是：orange</td></tr></table>]]></content>
     </entry>
     
     <entry>
