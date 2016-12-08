@@ -42,6 +42,12 @@
   }
 }
 </code></pre><p>def foo():<br>    if not bar:<br>        return True    </p>
+<h2 id="Task-Lists"><a href="#Task-Lists" class="headerlink" title="Task Lists"></a>Task Lists</h2><ul>
+<li>[x] @mentions, #refs, <a href="">links</a>, <strong>formatting</strong>, and <del>tags</del> supported</li>
+<li>[x] list syntax required (any unordered or ordered list supported)</li>
+<li>[x] this is a complete item</li>
+<li>[ ] this is an incomplete item</li>
+</ul>
 ]]></content>
     </entry>
     
