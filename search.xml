@@ -6,13 +6,27 @@
     <entry>
       <title><![CDATA[Mastering Markdown]]></title>
       <url>https://jamesxu9093.github.io/2016/12/08/markdown/</url>
-      <content type="html"><![CDATA[<h1 id="Headers"><a href="#Headers" class="headerlink" title="Headers"></a>Headers</h1><h2 id="This-is-an-h2-tag"><a href="#This-is-an-h2-tag" class="headerlink" title="This is an h2 tag"></a>This is an h2 tag</h2><h6 id="This-is-an-h6-tag"><a href="#This-is-an-h6-tag" class="headerlink" title="This is an h6 tag"></a>This is an h6 tag</h6><h1 id="Emphasis"><a href="#Emphasis" class="headerlink" title="Emphasis"></a>Emphasis</h1><p><em>This text will be italic</em><br><em>This will also be italic</em></p>
+      <content type="html"><![CDATA[<h1 id="Mastering-Markdown"><a href="#Mastering-Markdown" class="headerlink" title="Mastering Markdown"></a>Mastering Markdown</h1><h2 id="Headers"><a href="#Headers" class="headerlink" title="Headers"></a>Headers</h2><h2 id="This-is-an-h2-tag"><a href="#This-is-an-h2-tag" class="headerlink" title="This is an h2 tag"></a>This is an h2 tag</h2><h4 id="This-is-an-h4-tag"><a href="#This-is-an-h4-tag" class="headerlink" title="This is an h4 tag"></a>This is an h4 tag</h4><h1 id="Emphasis"><a href="#Emphasis" class="headerlink" title="Emphasis"></a>Emphasis</h1><p><em>This text will be italic</em><br><em>This will also be italic</em></p>
 <p><strong>This text will be bold</strong><br><strong>This will also be bold</strong></p>
 <p><em>You <strong>can</strong> combine them</em></p>
 <a id="more"></a>
-<h1 id="Emphasis-1"><a href="#Emphasis-1" class="headerlink" title="Emphasis"></a>Emphasis</h1><p><em>This text will be italic</em><br><em>This will also be italic</em></p>
-<p><strong>This text will be bold</strong><br><strong>This will also be bold</strong></p>
-<p><em>You <strong>can</strong> combine them</em></p>
+<h2 id="Lists"><a href="#Lists" class="headerlink" title="Lists"></a>Lists</h2><h3 id="Unordered"><a href="#Unordered" class="headerlink" title="Unordered"></a>Unordered</h3><ul>
+<li>Item 1</li>
+<li>Item 2<ul>
+<li>Item 2a</li>
+<li>Item 2b</li>
+</ul>
+</li>
+</ul>
+<h3 id="Ordered"><a href="#Ordered" class="headerlink" title="Ordered"></a>Ordered</h3><ol>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3<ul>
+<li>Item 3a</li>
+<li>Item 3b</li>
+</ul>
+</li>
+</ol>
 ]]></content>
     </entry>
     
