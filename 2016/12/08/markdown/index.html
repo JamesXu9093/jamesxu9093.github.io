@@ -23,7 +23,7 @@
 <meta property="og:description" content="HeadersThis is an h2 tagThis is an h4 tag">
 <meta property="og:image" content="https://jamesxu9093.github.io/images/logo.png">
 <meta property="og:image" content="https://jamesxu9093.github.io/url">
-<meta property="og:updated_time" content="2016-12-08T14:27:38.592Z">
+<meta property="og:updated_time" content="2016-12-08T14:34:22.002Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mastering Markdown">
 <meta name="twitter:description" content="HeadersThis is an h2 tagThis is an h4 tag">
@@ -311,10 +311,13 @@
       
           
         <h2 id="Headers"><a href="#Headers" class="headerlink" title="Headers"></a>Headers</h2><h2 id="This-is-an-h2-tag"><a href="#This-is-an-h2-tag" class="headerlink" title="This is an h2 tag"></a>This is an h2 tag</h2><h4 id="This-is-an-h4-tag"><a href="#This-is-an-h4-tag" class="headerlink" title="This is an h4 tag"></a>This is an h4 tag</h4><a id="more"></a>
-<h1 id="Emphasis"><a href="#Emphasis" class="headerlink" title="Emphasis"></a>Emphasis</h1><p><em>This text will be italic</em><br><em>This will also be italic</em></p>
+<p>Emphasis</p>
+<p><em>This text will be italic</em><br><em>This will also be italic</em></p>
 <p><strong>This text will be bold</strong><br><strong>This will also be bold</strong></p>
 <p><em>You <strong>can</strong> combine them</em></p>
-<h2 id="Lists"><a href="#Lists" class="headerlink" title="Lists"></a>Lists</h2><h3 id="Unordered"><a href="#Unordered" class="headerlink" title="Unordered"></a>Unordered</h3><ul>
+<p>Lists</p>
+<p>Unordered</p>
+<ul>
 <li>Item 1</li>
 <li>Item 2<ul>
 <li>Item 2a</li>
@@ -322,7 +325,8 @@
 </ul>
 </li>
 </ul>
-<h3 id="Ordered"><a href="#Ordered" class="headerlink" title="Ordered"></a>Ordered</h3><ol>
+<p>Ordered</p>
+<ol>
 <li>Item 1</li>
 <li>Item 2</li>
 <li>Item 3<ul>
@@ -331,14 +335,19 @@
 </ul>
 </li>
 </ol>
-<h2 id="Images"><a href="#Images" class="headerlink" title="Images"></a>Images</h2><p><img src="/images/logo.png" alt="GitHub Logo"><br>Format: <img src="url" alt="Alt Text"></p>
-<h2 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h2><p><a href="http://github.com" target="_blank" rel="external">http://github.com</a> - automatic!<br><a href="http://github.com" target="_blank" rel="external">GitHub</a></p>
-<h2 id="Blockquotes"><a href="#Blockquotes" class="headerlink" title="Blockquotes"></a>Blockquotes</h2><p>As Kanye West said:</p>
+<p>Images</p>
+<p><img src="/images/logo.png" alt="GitHub Logo"><br>Format: <img src="url" alt="Alt Text"></p>
+<p>Links</p>
+<p><a href="http://github.com" target="_blank" rel="external">http://github.com</a> - automatic!<br><a href="http://github.com" target="_blank" rel="external">GitHub</a></p>
+<p>Blockquotes</p>
+<p>As Kanye West said:</p>
 <blockquote>
 <p>We’re living the future so<br>the present is our past.</p>
 </blockquote>
-<h2 id="Inline-code"><a href="#Inline-code" class="headerlink" title="Inline code"></a>Inline code</h2><p>I think you should use an<br><code>&lt;addr&gt;</code> element here instead.</p>
-<h2 id="programming-language"><a href="#programming-language" class="headerlink" title="programming language"></a>programming language</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">fancyAlert</span>(<span class="params">arg</span>) </span>&#123;</div><div class="line">  <span class="keyword">if</span>(arg) &#123;</div><div class="line">    $.facebox(&#123;<span class="attr">div</span>:<span class="string">'#foo'</span>&#125;)</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>Inline code</p>
+<p>I think you should use an<br><code>&lt;addr&gt;</code> element here instead.</p>
+<p>programming language</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">fancyAlert</span>(<span class="params">arg</span>) </span>&#123;</div><div class="line">  <span class="keyword">if</span>(arg) &#123;</div><div class="line">    $.facebox(&#123;<span class="attr">div</span>:<span class="string">'#foo'</span>&#125;)</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">foo</span><span class="params">()</span>:</span></div><div class="line">    <span class="keyword">if</span> <span class="keyword">not</span> bar:</div><div class="line">        <span class="keyword">return</span> <span class="keyword">True</span></div></pre></td></tr></table></figure>
 <pre><code>function fancyAlert(arg) {
   if(arg) {
@@ -346,49 +355,16 @@
   }
 }
 </code></pre><p>def foo():<br>    if not bar:<br>        return True    </p>
-<h2 id="Task-Lists"><a href="#Task-Lists" class="headerlink" title="Task Lists"></a>Task Lists</h2><ul>
+<p>Task Lists</p>
+<ul>
 <li>[x] @mentions, #refs, <a href="">links</a>, <strong>formatting</strong>, and <del>tags</del> supported</li>
 <li>[x] list syntax required (any unordered or ordered list supported)</li>
 <li>[x] this is a complete item</li>
 <li>[ ] this is an incomplete item</li>
 </ul>
 <p>If you include a task list in the first comment of an Issue, you will get a handy progress indicator in your issue list. It also works in Pull Requests!</p>
-<h2 id="Tables"><a href="#Tables" class="headerlink" title="Tables"></a>Tables</h2><table>
-<thead>
-<tr>
-<th>First Header</th>
-<th>Second Header</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Content from cell 1</td>
-<td>Content from cell 2</td>
-</tr>
-<tr>
-<td>Content in the first column</td>
-<td>Content in the second column</td>
-</tr>
-</tbody>
-</table>
-<h2 id="Tables2"><a href="#Tables2" class="headerlink" title="Tables2"></a>Tables2</h2><table>
-<thead>
-<tr>
-<th>First Header</th>
-<th>Second Header</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Content from cell 1</td>
-<td>Content from cell 2</td>
-</tr>
-<tr>
-<td>Content in the first column</td>
-<td>Content in the second column</td>
-</tr>
-</tbody>
-</table>
+<p>Tables<br>First Header | Second Header<br>———— | ————-<br>Content from cell 1 | Content from cell 2<br>Content in the first column | Content in the second column</p>
+<p>Tables2<br>First Header | Second Header<br>———— | ————-<br>Content from cell 1 | Content from cell 2<br>Content in the first column | Content in the second column</p>
 
       
     </div>
@@ -400,7 +376,7 @@
         <p><span>本文标题:</span><a href="/2016/12/08/markdown/">Mastering Markdown</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">James</a></p>
         <p><span>发布时间:</span>2016-12-08, 00:00:00</p>
-        <p><span>最后更新:</span>2016-12-08, 22:27:38</p>
+        <p><span>最后更新:</span>2016-12-08, 22:34:22</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/12/08/markdown/" title="Mastering Markdown">https://jamesxu9093.github.io/2016/12/08/markdown/</a>
             <span class="copy-path" data-clipboard-text="原文: https://jamesxu9093.github.io/2016/12/08/markdown/　　作者: James" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -430,7 +406,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">文章目录</strong>
         
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Headers"><span class="toc-number">1.</span> <span class="toc-text">Headers</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#This-is-an-h2-tag"><span class="toc-number">2.</span> <span class="toc-text">This is an h2 tag</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#This-is-an-h4-tag"><span class="toc-number">2.0.1.</span> <span class="toc-text">This is an h4 tag</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Emphasis"><span class="toc-number"></span> <span class="toc-text">Emphasis</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Lists"><span class="toc-number">1.</span> <span class="toc-text">Lists</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Unordered"><span class="toc-number">1.1.</span> <span class="toc-text">Unordered</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Ordered"><span class="toc-number">1.2.</span> <span class="toc-text">Ordered</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Images"><span class="toc-number">2.</span> <span class="toc-text">Images</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Links"><span class="toc-number">3.</span> <span class="toc-text">Links</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Blockquotes"><span class="toc-number">4.</span> <span class="toc-text">Blockquotes</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Inline-code"><span class="toc-number">5.</span> <span class="toc-text">Inline code</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#programming-language"><span class="toc-number">6.</span> <span class="toc-text">programming language</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Task-Lists"><span class="toc-number">7.</span> <span class="toc-text">Task Lists</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tables"><span class="toc-number">8.</span> <span class="toc-text">Tables</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tables2"><span class="toc-number">9.</span> <span class="toc-text">Tables2</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Headers"><span class="toc-number">1.</span> <span class="toc-text">Headers</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#This-is-an-h2-tag"><span class="toc-number">2.</span> <span class="toc-text">This is an h2 tag</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#This-is-an-h4-tag"><span class="toc-number">2.0.1.</span> <span class="toc-text">This is an h4 tag</span></a></li></ol></li></ol></li></ol>
         
     </div>
     <style>
