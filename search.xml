@@ -6,25 +6,22 @@
     <entry>
       <title><![CDATA[DataStructuresAndAlgorithmsInPython读书笔记]]></title>
       <url>https://jamesxu9093.github.io/2016/12/09/DataStructuresAndAlgorithmsInPython/</url>
-      <content type="html"><![CDATA[<p>DataStructuresAndAlgorithmsInPython是2013年出的一本python数据结构与算法的书，全书共15章，篇幅不短，有750来页，<br>豆瓣读书上 <a href="https://book.douban.com/review/6854650/" target="_blank" rel="external">https://book.douban.com/review/6854650/</a> 这篇文章总结的相当好！！！<br><strong>Ch1 Python 基础知识</strong></p>
-<ul>
-<li>这部分对Python的基本语法做了一个简单的描述，主要目的是让本书的读者在一个相同的起跑线上，方便后面的内容展开。<br><strong>Ch2 面向对象编程</strong></li>
-<li>首先谈到了面向对象的设计模式，然后以一个例子讲解了Python中如何定义一个类，以及类与类之间的继承关系。最后介绍了Python中类内的变量管理。<br><strong>Ch3 算法分析基础</strong></li>
-<li>这部分几乎是算法书必备的内容。介绍如何分析算法的复杂度。<br><strong>Ch4 递归</strong></li>
-<li>在开始讲数据结构之前，作者先介绍了一下递归的思想，个人感觉这个章节的安排稍微有些唐突，不过，也算是为后面做铺垫吧。作者对于递归的分类很有启发意义。<br><strong>Ch5 基于Array的序列</strong></li>
-<li>忘掉Python下常用的list等等数据结构吧，作者先从最最基础的ctypes下的array结构开始构造类似于list的动态序列数据类型。这将为大家理解list类型奠定良好基础。C语言基础很好的话理解起来会很快。<br><strong>Ch6 栈、队列与双向队列</strong></li>
-<li>作者从ADT（Abstract Data Type）出发，在前面实现的基于Array的序列基础上，实现了栈、队列、双向队列这三种数据结构。<br><strong>Ch7 链表</strong></li>
-<li>该部分将前面已经实现的三种数据结构糅合在一起，在介绍了链表后，通过链表来实现上一章提到的集中数据结构。<br><strong>Ch8 树</strong></li>
-<li>从树，再到二叉树，然后深入其中，借用Array序列和链表来实现树这个类。最后介绍了遍历树的简单算法。<br><strong>Ch9 优先队列</strong></li>
-<li>同样，这部分先是介绍了优先队列后，分别用有序列表和无序列表实现了优先队列。然后由此引出了堆。再根据优先队列中的排序问题分别分析了选择排序、插入排序以及堆排序。<br><strong>Ch10 Map、哈希表以及跳表</strong></li>
-<li>这部分内容的重点是介绍了Hash的思想。此外作者跳出Python下常用的字典类型，对Map进行了不同的分类并实现。<br><strong>Ch11 搜索树</strong></li>
-<li>这部分内容主要围绕平衡树展开，介绍了AVL、红黑树等等。<br><strong>Ch12 排序与选择</strong></li>
-<li>尽管前面已经提到了集中排序算法，这里作者补充了并排、快排以及桶排序等等算法并做了比较。<br><strong>Ch13 文本处理</strong></li>
-<li>该部分主要是字符串查找的优化，重点分析了动态问题编程的思想。该部分还介绍了trie树（字典树）<br><strong>Ch14 图</strong></li>
-<li>该部分虽然简短，但覆盖面广，包含了图的结构、图的遍历、最短路径以及最小生成树等等。需要参考其他书作为补充。<br><strong>Ch15 内存管理与B树</strong></li>
-<li>介绍了Python中内存管理体系（内存分配，垃圾回收，缓存机制等等），并介绍了B树。<a id="more"></a>
-</li>
-</ul>
+      <content type="html"><![CDATA[<p>DataStructuresAndAlgorithmsInPython是2013年出的一本python数据结构与算法的书，全书共15章，篇幅不短，有750来页，<br>豆瓣读书上 <a href="https://book.douban.com/review/6854650/" target="_blank" rel="external">https://book.douban.com/review/6854650/</a> 这篇文章总结的相当好！！！<br><a id="more"></a></p>
+<p><strong>Ch1 Python 基础知识</strong><br>这部分对Python的基本语法做了一个简单的描述，主要目的是让本书的读者在一个相同的起跑线上，方便后面的内容展开。</p>
+<p><strong>Ch2 面向对象编程</strong><br>首先谈到了面向对象的设计模式，然后以一个例子讲解了Python中如何定义一个类，以及类与类之间的继承关系。最后介绍了Python中类内的变量管理。</p>
+<p><strong>Ch3 算法分析基础</strong><br>这部分几乎是算法书必备的内容。介绍如何分析算法的复杂度。</p>
+<p><strong>Ch4 递归</strong><br>在开始讲数据结构之前，作者先介绍了一下递归的思想，个人感觉这个章节的安排稍微有些唐突，不过，也算是为后面做铺垫吧。作者对于递归的分类很有启发意义。</p>
+<p><strong>Ch5 基于Array的序列</strong><br>忘掉Python下常用的list等等数据结构吧，作者先从最最基础的ctypes下的array结构开始构造类似于list的动态序列数据类型。这将为大家理解list类型奠定良好基础。C语言基础很好的话理解起来会很快。</p>
+<p><strong>Ch6 栈、队列与双向队列</strong><br>作者从ADT（Abstract Data Type）出发，在前面实现的基于Array的序列基础上，实现了栈、队列、双向队列这三种数据结构。</p>
+<p><strong>Ch7 链表</strong><br>该部分将前面已经实现的三种数据结构糅合在一起，在介绍了链表后，通过链表来实现上一章提到的集中数据结构。</p>
+<p><strong>Ch8 树</strong><br>从树，再到二叉树，然后深入其中，借用Array序列和链表来实现树这个类。最后介绍了遍历树的简单算法。</p>
+<p><strong>Ch9 优先队列</strong><br>同样，这部分先是介绍了优先队列后，分别用有序列表和无序列表实现了优先队列。然后由此引出了堆。再根据优先队列中的排序问题分别分析了选择排序、插入排序以及堆排序。</p>
+<p><strong>Ch10 Map、哈希表以及跳表</strong><br>这部分内容的重点是介绍了Hash的思想。此外作者跳出Python下常用的字典类型，对Map进行了不同的分类并实现。</p>
+<p><strong>Ch11 搜索树</strong><br>这部分内容主要围绕平衡树展开，介绍了AVL、红黑树等等。</p>
+<p><strong>Ch12 排序与选择</strong><br>尽管前面已经提到了集中排序算法，这里作者补充了并排、快排以及桶排序等等算法并做了比较。</p>
+<p><strong>Ch13 文本处理</strong><br>该部分主要是字符串查找的优化，重点分析了动态问题编程的思想。该部分还介绍了trie树（字典树）</p>
+<p><strong>Ch14 图</strong><br>该部分虽然简短，但覆盖面广，包含了图的结构、图的遍历、最短路径以及最小生成树等等。需要参考其他书作为补充。</p>
+<p><strong>Ch15 内存管理与B树</strong><br>介绍了Python中内存管理体系（内存分配，垃圾回收，缓存机制等等），并介绍了B树。</p>
 ]]></content>
     </entry>
     
