@@ -24,13 +24,14 @@
 <p><strong>Ch13 文本处理</strong><br>该部分主要是字符串查找的优化，重点分析了动态问题编程的思想。该部分还介绍了trie树（字典树）</p>
 <p><strong>Ch14 图</strong><br>该部分虽然简短，但覆盖面广，包含了图的结构、图的遍历、最短路径以及最小生成树等等。需要参考其他书作为补充。</p>
 <p><strong>Ch15 内存管理与B树</strong><br>介绍了Python中内存管理体系（内存分配，垃圾回收，缓存机制等等），并介绍了B树。</p>
-<h2 id="Python-基础知识"><a href="#Python-基础知识" class="headerlink" title="Python 基础知识"></a>Python 基础知识</h2><h2 id="面向对象编程"><a href="#面向对象编程" class="headerlink" title="面向对象编程"></a>面向对象编程</h2>]]></content>
+<h2 id="Python-基础知识"><a href="#Python-基础知识" class="headerlink" title="Python 基础知识"></a>Python 基础知识</h2><p>### </p>
+<h2 id="面向对象编程"><a href="#面向对象编程" class="headerlink" title="面向对象编程"></a>面向对象编程</h2>]]></content>
     </entry>
     
     <entry>
-      <title><![CDATA[hexo + github page构建一个自用blog平台，使用markdown语法写作]]></title>
+      <title><![CDATA[hexo + github page 构建一个自用简易博客平台，使用markdown语法写作]]></title>
       <url>https://jamesxu9093.github.io/2016/12/08/markdown/</url>
-      <content type="html"><![CDATA[<p>使用hexo + github page构建一个自用博客平台，的一般步骤(以windows为例)：<br>1.安装git客户端<br>2.安装node.js<br>3.安装hexo，配置<br>4.下载主题，配置<br>5.学习markdown语法并进行写作<br><a id="more"></a></p>
+      <content type="html"><![CDATA[<p>使用hexo + github page 构建一个自用博客平台，的一般步骤(以windows为例)：<br>1.安装git客户端<br>2.安装node.js<br>3.安装hexo，配置<br>4.下载主题，配置<br>5.学习markdown语法并进行写作<br><a id="more"></a></p>
 <h1 id="Headers"><a href="#Headers" class="headerlink" title="Headers"></a>Headers</h1><h2 id="This-is-an-h2-tag"><a href="#This-is-an-h2-tag" class="headerlink" title="This is an h2 tag"></a>This is an h2 tag</h2><h2 id="This-is-an-h2-tag-1"><a href="#This-is-an-h2-tag-1" class="headerlink" title="This is an h2 tag"></a>This is an h2 tag</h2><h3 id="This-is-an-h3-tag"><a href="#This-is-an-h3-tag" class="headerlink" title="This is an h3 tag"></a>This is an h3 tag</h3><h3 id="This-is-an-h3-tag-1"><a href="#This-is-an-h3-tag-1" class="headerlink" title="This is an h3 tag"></a>This is an h3 tag</h3><h4 id="This-is-an-h4-tag"><a href="#This-is-an-h4-tag" class="headerlink" title="This is an h4 tag"></a>This is an h4 tag</h4><h1 id="Emphasis"><a href="#Emphasis" class="headerlink" title="Emphasis"></a>Emphasis</h1><p><em>This text will be italic</em><br><em>This will also be italic</em></p>
 <p><strong>This text will be bold</strong><br><strong>This will also be bold</strong></p>
 <p><em>You <strong>can</strong> combine them</em></p>
@@ -90,31 +91,6 @@
 
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">可以当作块来看</div></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: Hello World</div><div class="line">date: 2015-12-03 00:00:00</div><div class="line">categories: samza</div><div class="line">tags: [samza,学习,hello world] </div><div class="line">toc: true</div><div class="line">---</div><div class="line">&lt;Excerpt in index | 首页摘要&gt; </div><div class="line">摘要内容...</div><div class="line">&lt;!-- more --&gt;</div><div class="line">&lt;The rest of contents | 余下全文&gt;</div><div class="line">余下的全文内容...</div></pre></td></tr></table></figure>]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Mastering Markdown]]></title>
-      <url>https://jamesxu9093.github.io/2016/12/06/aaa/</url>
-      <content type="html"><![CDATA[<h1 id="Headers"><a href="#Headers" class="headerlink" title="Headers"></a>Headers</h1><h2 id="This-is-an-h2-tag"><a href="#This-is-an-h2-tag" class="headerlink" title="This is an h2 tag"></a>This is an h2 tag</h2><h6 id="This-is-an-h6-tag"><a href="#This-is-an-h6-tag" class="headerlink" title="This is an h6 tag"></a>This is an h6 tag</h6><h1 id="Emphasis"><a href="#Emphasis" class="headerlink" title="Emphasis"></a>Emphasis</h1><p><em>This text will be italic</em><br><em>This will also be italic</em></p>
-<p><strong>This text will be bold</strong><br><strong>This will also be bold</strong></p>
-<p><em>You <strong>can</strong> combine them</em></p>
-<a id="more"></a>
-<h1 id="Emphasis-1"><a href="#Emphasis-1" class="headerlink" title="Emphasis"></a>Emphasis</h1><p><em>This text will be italic</em><br><em>This will also be italic</em></p>
-<p><strong>This text will be bold</strong><br><strong>This will also be bold</strong></p>
-<p><em>You <strong>can</strong> combine them</em></p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[second]]></title>
-      <url>https://jamesxu9093.github.io/2016/12/05/first/</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[second]]></title>
-      <url>https://jamesxu9093.github.io/2016/12/03/sencond/</url>
-      <content type="html"></content>
     </entry>
     
   
