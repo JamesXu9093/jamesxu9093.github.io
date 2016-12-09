@@ -24,7 +24,7 @@
 <p><strong>Ch13 文本处理</strong><br>该部分主要是字符串查找的优化，重点分析了动态问题编程的思想。该部分还介绍了trie树（字典树）</p>
 <p><strong>Ch14 图</strong><br>该部分虽然简短，但覆盖面广，包含了图的结构、图的遍历、最短路径以及最小生成树等等。需要参考其他书作为补充。</p>
 <p><strong>Ch15 内存管理与B树</strong><br>介绍了Python中内存管理体系（内存分配，垃圾回收，缓存机制等等），并介绍了B树。</p>
-]]></content>
+<h2 id="Python-基础知识"><a href="#Python-基础知识" class="headerlink" title="Python 基础知识"></a>Python 基础知识</h2>]]></content>
     </entry>
     
     <entry>
