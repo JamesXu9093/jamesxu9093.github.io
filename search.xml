@@ -6,7 +6,7 @@
     <entry>
       <title><![CDATA[hexo + github page构建一个自用blog平台，使用markdown语法写作]]></title>
       <url>https://jamesxu9093.github.io/2016/12/08/markdown/</url>
-      <content type="html"><![CDATA[<p>  使用hexo + github page构建一个自用博客平台，的一般步骤(以windows为例)：<br>1.安装git客户端<br>2.安装node.js<br>3.安装hexo，配置<br>4.下载主题，配置<br>5.学习markdown语法并进行写作<br><a id="more"></a></p>
+      <content type="html"><![CDATA[<p>使用hexo + github page构建一个自用博客平台，的一般步骤(以windows为例)：<br>1.安装git客户端<br>2.安装node.js<br>3.安装hexo，配置<br>4.下载主题，配置<br>5.学习markdown语法并进行写作<br><a id="more"></a></p>
 <h1 id="Headers"><a href="#Headers" class="headerlink" title="Headers"></a>Headers</h1><h2 id="This-is-an-h2-tag"><a href="#This-is-an-h2-tag" class="headerlink" title="This is an h2 tag"></a>This is an h2 tag</h2><h2 id="This-is-an-h2-tag-1"><a href="#This-is-an-h2-tag-1" class="headerlink" title="This is an h2 tag"></a>This is an h2 tag</h2><h3 id="This-is-an-h3-tag"><a href="#This-is-an-h3-tag" class="headerlink" title="This is an h3 tag"></a>This is an h3 tag</h3><h3 id="This-is-an-h3-tag-1"><a href="#This-is-an-h3-tag-1" class="headerlink" title="This is an h3 tag"></a>This is an h3 tag</h3><h4 id="This-is-an-h4-tag"><a href="#This-is-an-h4-tag" class="headerlink" title="This is an h4 tag"></a>This is an h4 tag</h4><h1 id="Emphasis"><a href="#Emphasis" class="headerlink" title="Emphasis"></a>Emphasis</h1><p><em>This text will be italic</em><br><em>This will also be italic</em></p>
 <p><strong>This text will be bold</strong><br><strong>This will also be bold</strong></p>
 <p><em>You <strong>can</strong> combine them</em></p>
