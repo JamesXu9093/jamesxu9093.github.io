@@ -6,15 +6,7 @@
     <entry>
       <title><![CDATA[Mastering Markdown]]></title>
       <url>https://jamesxu9093.github.io/2016/12/08/markdown/</url>
-      <content type="html"><![CDATA[<h1 id="1-Headers"><a href="#1-Headers" class="headerlink" title="1.Headers"></a>1.Headers</h1><h2 id="This-is-an-h2-tag"><a href="#This-is-an-h2-tag" class="headerlink" title="This is an h2 tag"></a>This is an h2 tag</h2><pre><code>### This is an h3 tag
-### This is an h3 tag
-#### This is an h4 tag
-
-## This is an h2 tag
-### This is an h3 tag
-### This is an h3 tag
-#### This is an h4 tag
-</code></pre><a id="more"></a>
+      <content type="html"><![CDATA[<h1 id="1-Headers"><a href="#1-Headers" class="headerlink" title="1.Headers"></a>1.Headers</h1><h2 id="This-is-an-h2-tag"><a href="#This-is-an-h2-tag" class="headerlink" title="This is an h2 tag"></a>This is an h2 tag</h2><h3 id="This-is-an-h3-tag"><a href="#This-is-an-h3-tag" class="headerlink" title="This is an h3 tag"></a>This is an h3 tag</h3><h3 id="This-is-an-h3-tag-1"><a href="#This-is-an-h3-tag-1" class="headerlink" title="This is an h3 tag"></a>This is an h3 tag</h3><h4 id="This-is-an-h4-tag"><a href="#This-is-an-h4-tag" class="headerlink" title="This is an h4 tag"></a>This is an h4 tag</h4><h2 id="This-is-an-h2-tag-1"><a href="#This-is-an-h2-tag-1" class="headerlink" title="This is an h2 tag"></a>This is an h2 tag</h2><h3 id="This-is-an-h3-tag-2"><a href="#This-is-an-h3-tag-2" class="headerlink" title="This is an h3 tag"></a>This is an h3 tag</h3><h3 id="This-is-an-h3-tag-3"><a href="#This-is-an-h3-tag-3" class="headerlink" title="This is an h3 tag"></a>This is an h3 tag</h3><h4 id="This-is-an-h4-tag-1"><a href="#This-is-an-h4-tag-1" class="headerlink" title="This is an h4 tag"></a>This is an h4 tag</h4><a id="more"></a>
 <h1 id="2-Emphasis"><a href="#2-Emphasis" class="headerlink" title="2.Emphasis"></a>2.Emphasis</h1><p><em>This text will be italic</em><br><em>This will also be italic</em></p>
 <p><strong>This text will be bold</strong><br><strong>This will also be bold</strong></p>
 <p><em>You <strong>can</strong> combine them</em></p>
