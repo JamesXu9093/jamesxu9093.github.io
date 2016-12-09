@@ -6,7 +6,9 @@
     <entry>
       <title><![CDATA[DataStructuresAndAlgorithmsInPython读书笔记]]></title>
       <url>https://jamesxu9093.github.io/2016/12/09/DataStructuresAndAlgorithmsInPython/</url>
-      <content type="html"><![CDATA[<p>DataStructuresAndAlgorithmsInPython是2013年出的一本python数据结构与算法的书，全书共15章，篇幅不短，有750来页，<br>豆瓣读书上 <a href="https://book.douban.com/review/6854650/" target="_blank" rel="external">https://book.douban.com/review/6854650/</a> 这篇文章总结的相当好！！！<br><a id="more"></a></p>
+      <content type="html"><![CDATA[<p>DataStructuresAndAlgorithmsInPython是2013年出的一本python数据结构与算法的书，全书共15章，篇幅不短，有750来页，<br>豆瓣读书上 <a href="https://book.douban.com/review/6854650/" target="_blank" rel="external">https://book.douban.com/review/6854650/</a> 这篇文章总结的相当好！！！</p>
+<p><img src="/blog-img/1209-2.png" alt=""></p>
+<a id="more"></a>
 <p><strong>Ch1 Python 基础知识</strong><br>这部分对Python的基本语法做了一个简单的描述，主要目的是让本书的读者在一个相同的起跑线上，方便后面的内容展开。</p>
 <p><strong>Ch2 面向对象编程</strong><br>首先谈到了面向对象的设计模式，然后以一个例子讲解了Python中如何定义一个类，以及类与类之间的继承关系。最后介绍了Python中类内的变量管理。</p>
 <p><strong>Ch3 算法分析基础</strong><br>这部分几乎是算法书必备的内容。介绍如何分析算法的复杂度。</p>
