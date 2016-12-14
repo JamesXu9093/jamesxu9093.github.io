@@ -4,6 +4,13 @@
   
     
     <entry>
+      <title><![CDATA[Python入门到精通]]></title>
+      <url>https://jamesxu9093.github.io/2016/12/14/Python%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%E4%B9%8B%E8%B7%AF/</url>
+      <content type="html"><![CDATA[<p>一门语言的学习从来都不是一蹴而就的，需要对语言的方方面面进行学习，本文是自己打算要学的方向。包括如下方面：<br>1、Python语言基础<br>2、函数式编程与面向对象<br>3、数据结构和算法<br>4、爬虫：scrapy<br>5、web开发：flask，django，tornado<br>6、科学计算<br>7、机器学习<br><a id="more"></a></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[DataStructuresAndAlgorithmsInPython读书笔记]]></title>
       <url>https://jamesxu9093.github.io/2016/12/09/DataStructuresAndAlgorithmsInPython/</url>
       <content type="html"><![CDATA[<p>DataStructuresAndAlgorithmsInPython是2013年出的一本python数据结构与算法的书，全书共15章，篇幅不短，<br>有750来页，豆瓣读书上 <a href="https://book.douban.com/review/6854650/" target="_blank" rel="external">https://book.douban.com/review/6854650/</a> 这篇文章总结的相当好！！！</p>
@@ -96,13 +103,6 @@
 
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">可以当作块来看</div></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: Hello World</div><div class="line">date: 2015-12-03 00:00:00</div><div class="line">categories: samza</div><div class="line">tags: [samza,学习,hello world] </div><div class="line">toc: true</div><div class="line">---</div><div class="line">&lt;Excerpt in index | 首页摘要&gt; </div><div class="line">摘要内容...</div><div class="line">&lt;!-- more --&gt;</div><div class="line">&lt;The rest of contents | 余下全文&gt;</div><div class="line">余下的全文内容...</div></pre></td></tr></table></figure>]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Python入门到精通]]></title>
-      <url>https://jamesxu9093.github.io/2016/12/04/Python%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A%E4%B9%8B%E8%B7%AF/</url>
-      <content type="html"><![CDATA[<p>一门语言的学习从来都不是一蹴而就的，需要对语言的方方面面进行学习，本文是自己打算要学的方向。包括如下方面：<br>1、Python语言基础<br>2、函数式编程与面向对象<br>3、数据结构和算法<br>4、爬虫：scrapy<br>5、web开发：flask，django，tornado<br>6、科学计算<br>7、机器学习<br><a id="more"></a></p>
-]]></content>
     </entry>
     
   
