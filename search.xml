@@ -4,9 +4,11 @@
   
     
     <entry>
-      <title><![CDATA[Sparkѧϰ�����ܽ�]]></title>
+      <title><![CDATA[Spark学习归纳总结]]></title>
       <url>https://jamesxu9093.github.io/2016/12/15/spark%E5%AD%A6%E4%B9%A0%E5%BD%92%E7%BA%B3/</url>
-      <content type="html"><![CDATA[<p>spark��Ϊ���´��������������ֿ��ȵ����ݴ������ܣ��汾�ĸ��¡������ٶ�Ҳ�Ƿǳ�֮�죬��ѧϰ��ʱ��1.3�İ汾����1.4����1.6�������ڵ�2.0�汾��<br>����Ϊ����ѧϰ�����Լ���ҪŬ���ķ�����<br>1��sparkԭ����rdd(�µ�2.0�汾rdd�������Ƽ������ݱ�ʾ��ʽ������DataFram)<br>2��spark-streaming<br>3��spark-sql<br>4��spark-mllib<br><a id="more"></a><br>1����������<br><a href="http://spark.apache.org/docs/latest/quick-start.html" target="_blank" rel="external">http://spark.apache.org/docs/latest/quick-start.html</a><br>2���ٷ��ֲ�<br><a href="http://spark.apache.org/docs/latest/programming-guide.html" target="_blank" rel="external">http://spark.apache.org/docs/latest/programming-guide.html</a></p>
+      <content type="html"><![CDATA[<p>spark作为当下大数据领域最炙手可热的数据处理框架，版本的更新、迭代速度也是非常之快，由学习的时候1.3的版本，到1.4，到1.6，到现在的2.0版本。<br>以下为本人学习过程以及需要努力的方向：<br>1、spark原理：rdd(新的2.0版本rdd并不是推荐的数据表示形式，而是DataFram)<br>2、spark-streaming<br>3、spark-sql<br>4、spark-mllib<br><a id="more"></a><br>1、快速入门<br><a href="http://spark.apache.org/docs/latest/quick-start.html" target="_blank" rel="external">http://spark.apache.org/docs/latest/quick-start.html</a><br>讲解map，reduce，flatmap，reducebykey等的用法<br>spark程序中可以应用任意的scala和java语言的特性<br>讲解</p>
+<p>2、官方手册<br><a href="http://spark.apache.org/docs/latest/programming-guide.html" target="_blank" rel="external">http://spark.apache.org/docs/latest/programming-guide.html</a></p>
+<p>3、litaotao的归纳（spark科技日报）<br><a href="http://litaotao.github.io/introduction-to-spark?s=inner" target="_blank" rel="external">http://litaotao.github.io/introduction-to-spark?s=inner</a><br><a href="http://mp.weixin.qq.com/s?__biz=MzAwNzIzMDY5OA==&amp;mid=2651423985&amp;idx=1&amp;sn=962a12f58067618df12d20ab7a48868c&amp;scene=21#wechat_redirect" target="_blank" rel="external">http://mp.weixin.qq.com/s?__biz=MzAwNzIzMDY5OA==&amp;mid=2651423985&amp;idx=1&amp;sn=962a12f58067618df12d20ab7a48868c&amp;scene=21#wechat_redirect</a></p>
 ]]></content>
     </entry>
     
