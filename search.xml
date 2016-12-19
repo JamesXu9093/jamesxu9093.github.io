@@ -14,8 +14,11 @@
 <p><strong>2.Why is spark?</strong><br><em>Speed</em><br>Run programs up to 100x faster than Hadoop MapReduce in memory, or 10x faster on disk.<br>Apache Spark has an advanced DAG execution engine that supports cyclic data flow and in-memory computing.</p>
 <p><em>Ease of Use</em><br>Write applications quickly in Java, Scala, Python, R.<br>Spark offers over 80 high-level operators that make it easy to build parallel apps. And you can use it interactively from the Scala, Python and R shells.</p>
 <p><em>Generality</em><br>Combine SQL, streaming, and complex analytics.<br>Spark powers a stack of libraries including SQL and DataFrames, MLlib for machine learning, GraphX, and Spark Streaming. You can combine these libraries seamlessly in the same application.</p>
-<p>Runs Everywhere<br>Spark runs on Hadoop, Mesos, standalone, or in the cloud. It can access diverse data sources including HDFS, Cassandra, HBase, and S3.<br>You can run Spark using its standalone cluster mode, on EC2, on Hadoop YARN, or on Apache Mesos. Access data in HDFS, Cassandra, HBase, Hive, Tachyon, and any Hadoop data source.</p>
-<p><strong>2. The Berkeley Data Analytics Stack</strong></p>
+<p><em>Runs Everywhere</em><br>Spark runs on Hadoop, Mesos, standalone, or in the cloud. It can access diverse data sources including HDFS, Cassandra, HBase, and S3.<br>You can run Spark using its standalone cluster mode, on EC2, on Hadoop YARN, or on Apache Mesos. Access data in HDFS, Cassandra, HBase, Hive, Tachyon, and any Hadoop data source.</p>
+<p><em>One stack rule them all !!!</em></p>
+<p><strong>2. The Berkeley Data Analytics Stack</strong><br>实时流式计算：Stream Processing<br>批处理：Batch Process<br>点对点查询：Ad-hoc Queries</p>
+<p><strong>3.与hadoop对比</strong><br>hadoop为什么慢：额外的复制，序列化，磁盘IO开销<br>spark为什么快：内存计算，DAG优化</p>
+<p><strong>4.运行模式</strong><br>Local(多用于测试)<br>Standalone<br>Mesos<br>Yarn</p>
 <h2 id="spark集群搭建"><a href="#spark集群搭建" class="headerlink" title="spark集群搭建"></a>spark集群搭建</h2><p>生产搭建</p>
 <h2 id="spark-ui监控"><a href="#spark-ui监控" class="headerlink" title="spark-ui监控"></a>spark-ui监控</h2><h2 id="spark-streaming"><a href="#spark-streaming" class="headerlink" title="spark-streaming"></a>spark-streaming</h2>]]></content>
     </entry>
