@@ -29,7 +29,7 @@
 <meta property="og:image" content="https://jamesxu9093.github.io/blog-img/1219-6.png">
 <meta property="og:image" content="https://jamesxu9093.github.io/blog-img/1219-7.png">
 <meta property="og:image" content="https://jamesxu9093.github.io/blog-img/1219-8.png">
-<meta property="og:updated_time" content="2016-12-19T07:14:06.563Z">
+<meta property="og:updated_time" content="2016-12-19T07:17:19.900Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Spark学习归纳总结">
 <meta name="twitter:description" content="spark作为当下大数据领域最炙手可热的数据处理框架，版本的更新、迭代速度也是非常之快，由学习的时候1.3的版本，到1.4，到1.6，到现在的2.0版本。以下为本人学习过程以及需要努力的方向：1、spark原理：rdd(新的2.0版本rdd并不是推荐的数据表示形式，而是DataFram)2、spark-streaming3、spark-sql4、spark-mllib">
@@ -326,7 +326,7 @@
 <p><em>Generality</em><br>Combine SQL, streaming, and complex analytics.<br>Spark powers a stack of libraries including SQL and DataFrames, MLlib for machine learning, GraphX, and Spark Streaming. You can combine these libraries seamlessly in the same application.</p>
 <p><em>Runs Everywhere</em><br>Spark runs on Hadoop, Mesos, standalone, or in the cloud. It can access diverse data sources including HDFS, Cassandra, HBase, and S3.<br>You can run Spark using its standalone cluster mode, on EC2, on Hadoop YARN, or on Apache Mesos. Access data in HDFS, Cassandra, HBase, Hive, Tachyon, and any Hadoop data source.</p>
 <p><em>One stack rule them all !!!</em></p>
-<p><strong>3. The Berkeley Data Analytics Stack</strong><br>实时流式计算：Stream Processing<br>批处理：Batch Process<br>点对点查询：Ad-hoc Queries</p>
+<p><strong>3. 一栈式解决方案</strong><br>实时流式计算：Stream Processing<br>批处理：Batch Process<br>点对点查询：Ad-hoc Queries</p>
 <p><strong>4.与hadoop对比</strong><br>hadoop为什么慢：额外的复制，序列化，磁盘IO开销<br>spark为什么快：内存计算，DAG优化</p>
 <p><strong>5.spark运行模式</strong><br>Local(多用于测试)<br>Standalone<br>Mesos<br>Yarn</p>
 <h3 id="内核分析"><a href="#内核分析" class="headerlink" title="内核分析"></a>内核分析</h3><p><strong>1.spark介绍</strong><br>Spark是起源于美国加州大学伯克利分校AMPLab的大数据计算平台，在2010年开源，目前是Apache软件基金会的顶级项目。随着Spark在大数据计算领域的暂露头角，越来越多的企业开始关注和使用。2014年11月，Spark在Daytona Gray Sort 100TB Benchmark竞赛中打破了由Hadoop MapReduce保持的排序记录。Spark利用1/10的节点数，把100TB数据的排序时间从72分钟提高到了23分钟[1]。</p>
@@ -374,7 +374,7 @@
         <p><span>本文标题:</span><a href="/2016/12/15/spark学习归纳/">Spark学习归纳总结</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">James</a></p>
         <p><span>发布时间:</span>2016-12-15, 00:00:00</p>
-        <p><span>最后更新:</span>2016-12-19, 15:14:06</p>
+        <p><span>最后更新:</span>2016-12-19, 15:17:19</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/12/15/spark学习归纳/" title="Spark学习归纳总结">https://jamesxu9093.github.io/2016/12/15/spark学习归纳/</a>
             <span class="copy-path" data-clipboard-text="原文: https://jamesxu9093.github.io/2016/12/15/spark学习归纳/　　作者: James" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
