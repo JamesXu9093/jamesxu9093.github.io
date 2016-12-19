@@ -29,7 +29,7 @@
 <meta property="og:image" content="https://jamesxu9093.github.io/blog-img/1219-6.png">
 <meta property="og:image" content="https://jamesxu9093.github.io/blog-img/1219-7.png">
 <meta property="og:image" content="https://jamesxu9093.github.io/blog-img/1219-8.png">
-<meta property="og:updated_time" content="2016-12-19T07:17:19.900Z">
+<meta property="og:updated_time" content="2016-12-19T07:18:16.349Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Spark学习归纳总结">
 <meta name="twitter:description" content="spark作为当下大数据领域最炙手可热的数据处理框架，版本的更新、迭代速度也是非常之快，由学习的时候1.3的版本，到1.4，到1.6，到现在的2.0版本。以下为本人学习过程以及需要努力的方向：1、spark原理：rdd(新的2.0版本rdd并不是推荐的数据表示形式，而是DataFram)2、spark-streaming3、spark-sql4、spark-mllib">
@@ -361,7 +361,6 @@
 <p>了解了Spark内核的基本概念和实现后，更深一步理解其工作原理的最好方法就是阅读源码。最新的Spark源码可以从Spark官方[3]网站下载。源码推荐使用IntelliJ IDEA阅读，会自动安装Scala插件。读者可以从core工程，也就是Spark内核工程开始阅读，更可以设置断点尝试跟踪一个任务的执行。另外，读者还可以通过分析Spark的日志来进一步理解Spark的运行机制，Spark使用log4j记录日志，可以在启动集群前修改log4j的配置文件来配置日志输出和格式。</p>
 <p><strong>参考资料</strong><br>[1] <a href="http://spark.apache.org/news/spark-wins-daytona-gray-sort-100tb-benchmark.html" target="_blank" rel="external">http://spark.apache.org/news/spark-wins-daytona-gray-sort-100tb-benchmark.html</a><br>[2] <a href="https://amplab.cs.berkeley.edu/software/" target="_blank" rel="external">https://amplab.cs.berkeley.edu/software/</a><br>[3] <a href="http://spark.apache.org/downloads.html" target="_blank" rel="external">http://spark.apache.org/downloads.html</a><br>[4] <a href="http://akka.io/docs/" target="_blank" rel="external">http://akka.io/docs/</a><br>[5] <a href="http://www.tachyonproject.org/" target="_blank" rel="external">http://www.tachyonproject.org/</a></p>
 <p>本文来自： <a href="http://www.chinahadoop.cn/group/3/thread/956" target="_blank" rel="external">http://www.chinahadoop.cn/group/3/thread/956</a> 对原文有少许修改</p>
-<figure class="highlight scala"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/**</span></div><div class="line">   * Mark this RDD for checkpointing. It will be saved to a file inside the checkpoint</div><div class="line">   * directory set with SparkContext.setCheckpointDir() and all references to its parent</div><div class="line">   * RDDs will be removed. This function must be called before any job has been</div><div class="line">   * executed on this RDD. It is strongly recommended that this RDD is persisted in</div><div class="line">   * memory, otherwise saving it on a file will require recomputation.</div><div class="line">   */</div><div class="line">  <span class="function"><span class="keyword">def</span> <span class="title">checkpoint</span></span>() &#123;</div><div class="line">    <span class="keyword">if</span> (context.checkpointDir.isEmpty) &#123;</div><div class="line">      <span class="keyword">throw</span> <span class="keyword">new</span> <span class="type">SparkException</span>(<span class="string">"Checkpoint directory has not been set in the SparkContext"</span>)</div><div class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (checkpointData.isEmpty) &#123;</div><div class="line">      checkpointData = <span class="type">Some</span>(<span class="keyword">new</span> <span class="type">RDDCheckpointData</span>(<span class="keyword">this</span>))</div><div class="line">      checkpointData.get.markForCheckpoint()</div><div class="line">    &#125;</div><div class="line">  &#125;</div></pre></td></tr></table></figure>
 <h2 id="spark集群搭建"><a href="#spark集群搭建" class="headerlink" title="spark集群搭建"></a>spark集群搭建</h2><p>生产搭建</p>
 <h2 id="spark-ui监控"><a href="#spark-ui监控" class="headerlink" title="spark-ui监控"></a>spark-ui监控</h2><h2 id="spark-streaming"><a href="#spark-streaming" class="headerlink" title="spark-streaming"></a>spark-streaming</h2>
       
@@ -374,7 +373,7 @@
         <p><span>本文标题:</span><a href="/2016/12/15/spark学习归纳/">Spark学习归纳总结</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">James</a></p>
         <p><span>发布时间:</span>2016-12-15, 00:00:00</p>
-        <p><span>最后更新:</span>2016-12-19, 15:17:19</p>
+        <p><span>最后更新:</span>2016-12-19, 15:18:16</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/12/15/spark学习归纳/" title="Spark学习归纳总结">https://jamesxu9093.github.io/2016/12/15/spark学习归纳/</a>
             <span class="copy-path" data-clipboard-text="原文: https://jamesxu9093.github.io/2016/12/15/spark学习归纳/　　作者: James" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
