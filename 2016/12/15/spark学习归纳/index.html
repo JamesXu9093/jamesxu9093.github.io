@@ -21,7 +21,7 @@
 <meta property="og:url" content="https://jamesxu9093.github.io/2016/12/15/spark学习归纳/index.html">
 <meta property="og:site_name" content="James的博客">
 <meta property="og:description" content="spark作为当下大数据领域最炙手可热的数据处理框架，版本的更新、迭代速度也是非常之快，由学习的时候1.3的版本，到1.4，到1.6，到现在的2.0版本。以下为本人学习过程以及需要努力的方向：1、spark原理：rdd(新的2.0版本rdd并不是推荐的数据表示形式，而是DataFram)2、spark-streaming3、spark-sql4、spark-mllib">
-<meta property="og:updated_time" content="2016-12-16T03:59:44.726Z">
+<meta property="og:updated_time" content="2016-12-19T03:18:17.532Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Spark学习归纳总结">
 <meta name="twitter:description" content="spark作为当下大数据领域最炙手可热的数据处理框架，版本的更新、迭代速度也是非常之快，由学习的时候1.3的版本，到1.4，到1.6，到现在的2.0版本。以下为本人学习过程以及需要努力的方向：1、spark原理：rdd(新的2.0版本rdd并不是推荐的数据表示形式，而是DataFram)2、spark-streaming3、spark-sql4、spark-mllib">
@@ -307,10 +307,18 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p>spark作为当下大数据领域最炙手可热的数据处理框架，版本的更新、迭代速度也是非常之快，由学习的时候1.3的版本，到1.4，到1.6，到现在的2.0版本。<br>以下为本人学习过程以及需要努力的方向：<br>1、spark原理：rdd(新的2.0版本rdd并不是推荐的数据表示形式，而是DataFram)<br>2、spark-streaming<br>3、spark-sql<br>4、spark-mllib<br><a id="more"></a><br>1、快速入门<br><a href="http://spark.apache.org/docs/latest/quick-start.html" target="_blank" rel="external">http://spark.apache.org/docs/latest/quick-start.html</a><br>讲解map，reduce，flatmap，reducebykey等的用法<br>spark程序中可以应用任意的scala和java语言的特性<br>讲解</p>
+        <p>spark作为当下大数据领域最炙手可热的数据处理框架，版本的更新、迭代速度也是非常之快，由学习的时候1.3的版本，到1.4，到1.6，到现在的2.0版本。<br>以下为本人学习过程以及需要努力的方向：<br>1、spark原理：rdd(新的2.0版本rdd并不是推荐的数据表示形式，而是DataFram)<br>2、spark-streaming<br>3、spark-sql<br>4、spark-mllib<br><a id="more"></a></p>
+<h2 id="资源归纳"><a href="#资源归纳" class="headerlink" title="资源归纳"></a>资源归纳</h2><p>1、快速入门<br><a href="http://spark.apache.org/docs/latest/quick-start.html" target="_blank" rel="external">http://spark.apache.org/docs/latest/quick-start.html</a><br>讲解map，reduce，flatmap，reducebykey等的用法<br>spark程序中可以应用任意的scala和java语言的特性</p>
 <p>2、官方手册<br><a href="http://spark.apache.org/docs/latest/programming-guide.html" target="_blank" rel="external">http://spark.apache.org/docs/latest/programming-guide.html</a></p>
 <p>3、litaotao的归纳（spark科技日报）<br><a href="http://litaotao.github.io/introduction-to-spark?s=inner" target="_blank" rel="external">http://litaotao.github.io/introduction-to-spark?s=inner</a><br><a href="http://mp.weixin.qq.com/s?__biz=MzAwNzIzMDY5OA==&amp;mid=2651423985&amp;idx=1&amp;sn=962a12f58067618df12d20ab7a48868c&amp;scene=21#wechat_redirect" target="_blank" rel="external">http://mp.weixin.qq.com/s?__biz=MzAwNzIzMDY5OA==&amp;mid=2651423985&amp;idx=1&amp;sn=962a12f58067618df12d20ab7a48868c&amp;scene=21#wechat_redirect</a></p>
-
+<h2 id="spark原理"><a href="#spark原理" class="headerlink" title="spark原理"></a>spark原理</h2><h3 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h3><p><strong>1.什么是spark？</strong><br>Apache Spark™ is a fast and general engine for large-scale data processing.</p>
+<p><strong>2.Why is spark?</strong><br><em>Speed</em><br>Run programs up to 100x faster than Hadoop MapReduce in memory, or 10x faster on disk.<br>Apache Spark has an advanced DAG execution engine that supports cyclic data flow and in-memory computing.</p>
+<p><em>Ease of Use</em><br>Write applications quickly in Java, Scala, Python, R.<br>Spark offers over 80 high-level operators that make it easy to build parallel apps. And you can use it interactively from the Scala, Python and R shells.</p>
+<p><em>Generality</em><br>Combine SQL, streaming, and complex analytics.<br>Spark powers a stack of libraries including SQL and DataFrames, MLlib for machine learning, GraphX, and Spark Streaming. You can combine these libraries seamlessly in the same application.</p>
+<p>Runs Everywhere<br>Spark runs on Hadoop, Mesos, standalone, or in the cloud. It can access diverse data sources including HDFS, Cassandra, HBase, and S3.<br>You can run Spark using its standalone cluster mode, on EC2, on Hadoop YARN, or on Apache Mesos. Access data in HDFS, Cassandra, HBase, Hive, Tachyon, and any Hadoop data source.</p>
+<p><strong>2. The Berkeley Data Analytics Stack</strong></p>
+<h2 id="spark集群搭建"><a href="#spark集群搭建" class="headerlink" title="spark集群搭建"></a>spark集群搭建</h2><p>生产搭建</p>
+<h2 id="spark-ui监控"><a href="#spark-ui监控" class="headerlink" title="spark-ui监控"></a>spark-ui监控</h2><h2 id="spark-streaming"><a href="#spark-streaming" class="headerlink" title="spark-streaming"></a>spark-streaming</h2>
       
     </div>
     
@@ -321,7 +329,7 @@
         <p><span>本文标题:</span><a href="/2016/12/15/spark学习归纳/">Spark学习归纳总结</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">James</a></p>
         <p><span>发布时间:</span>2016-12-15, 00:00:00</p>
-        <p><span>最后更新:</span>2016-12-16, 11:59:44</p>
+        <p><span>最后更新:</span>2016-12-19, 11:18:17</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/12/15/spark学习归纳/" title="Spark学习归纳总结">https://jamesxu9093.github.io/2016/12/15/spark学习归纳/</a>
             <span class="copy-path" data-clipboard-text="原文: https://jamesxu9093.github.io/2016/12/15/spark学习归纳/　　作者: James" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -351,7 +359,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">文章目录</strong>
         
-            
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#资源归纳"><span class="toc-number">1.</span> <span class="toc-text">资源归纳</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#spark原理"><span class="toc-number">2.</span> <span class="toc-text">spark原理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#基本概念"><span class="toc-number">2.1.</span> <span class="toc-text">基本概念</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#spark集群搭建"><span class="toc-number">3.</span> <span class="toc-text">spark集群搭建</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#spark-ui监控"><span class="toc-number">4.</span> <span class="toc-text">spark-ui监控</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#spark-streaming"><span class="toc-number">5.</span> <span class="toc-text">spark-streaming</span></a></li></ol>
         
     </div>
     <style>
