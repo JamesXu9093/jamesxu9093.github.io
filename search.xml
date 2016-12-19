@@ -7,18 +7,25 @@
       <title><![CDATA[Spark学习归纳总结]]></title>
       <url>https://jamesxu9093.github.io/2016/12/15/spark%E5%AD%A6%E4%B9%A0%E5%BD%92%E7%BA%B3/</url>
       <content type="html"><![CDATA[<p>spark作为当下大数据领域最炙手可热的数据处理框架，版本的更新、迭代速度也是非常之快，由学习的时候1.3的版本，到1.4，到1.6，到现在的2.0版本。<br>以下为本人学习过程以及需要努力的方向：<br>1、spark原理：rdd(新的2.0版本rdd并不是推荐的数据表示形式，而是DataFram)<br>2、spark-streaming<br>3、spark-sql<br>4、spark-mllib<br><a id="more"></a></p>
-<h2 id="资源归纳"><a href="#资源归纳" class="headerlink" title="资源归纳"></a>资源归纳</h2><p>1、快速入门<br><a href="http://spark.apache.org/docs/latest/quick-start.html" target="_blank" rel="external">http://spark.apache.org/docs/latest/quick-start.html</a><br>讲解map，reduce，flatmap，reducebykey等的用法<br>spark程序中可以应用任意的scala和java语言的特性</p>
+<h2 id="资源归纳"><a href="#资源归纳" class="headerlink" title="资源归纳"></a>资源归纳</h2><p>1、快速入门<br><a href="http://spark.apache.org/docs/latest/quick-start.html" target="_blank" rel="external">http://spark.apache.org/docs/latest/quick-start.html</a><br>讲解map，reduce，flatmap，reducebykey等的用法<br>spark程序中可以应用任意的scala和java语言的特性(jar包，工具类，方法等，见例子)</p>
 <p>2、官方手册<br><a href="http://spark.apache.org/docs/latest/programming-guide.html" target="_blank" rel="external">http://spark.apache.org/docs/latest/programming-guide.html</a></p>
 <p>3、litaotao的归纳（spark科技日报）<br><a href="http://litaotao.github.io/introduction-to-spark?s=inner" target="_blank" rel="external">http://litaotao.github.io/introduction-to-spark?s=inner</a><br><a href="http://mp.weixin.qq.com/s?__biz=MzAwNzIzMDY5OA==&amp;mid=2651423985&amp;idx=1&amp;sn=962a12f58067618df12d20ab7a48868c&amp;scene=21#wechat_redirect" target="_blank" rel="external">http://mp.weixin.qq.com/s?__biz=MzAwNzIzMDY5OA==&amp;mid=2651423985&amp;idx=1&amp;sn=962a12f58067618df12d20ab7a48868c&amp;scene=21#wechat_redirect</a></p>
-<h2 id="spark原理"><a href="#spark原理" class="headerlink" title="spark原理"></a>spark原理</h2><h3 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h3><p><strong>1.what’s spark？</strong><br>Apache Spark™ is a fast and general engine for large-scale data processing.</p>
+<h2 id="spark原理"><a href="#spark原理" class="headerlink" title="spark原理"></a>spark原理</h2><h3 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h3><p><strong>1.what’s spark？</strong><br>Apache Spark™ is a fast and general engine for large-scale data processing.</p>
 <p><strong>2.Why is spark?</strong><br><em>Speed</em><br>Run programs up to 100x faster than Hadoop MapReduce in memory, or 10x faster on disk.<br>Apache Spark has an advanced DAG execution engine that supports cyclic data flow and in-memory computing.</p>
 <p><em>Ease of Use</em><br>Write applications quickly in Java, Scala, Python, R.<br>Spark offers over 80 high-level operators that make it easy to build parallel apps. And you can use it interactively from the Scala, Python and R shells.</p>
 <p><em>Generality</em><br>Combine SQL, streaming, and complex analytics.<br>Spark powers a stack of libraries including SQL and DataFrames, MLlib for machine learning, GraphX, and Spark Streaming. You can combine these libraries seamlessly in the same application.</p>
 <p><em>Runs Everywhere</em><br>Spark runs on Hadoop, Mesos, standalone, or in the cloud. It can access diverse data sources including HDFS, Cassandra, HBase, and S3.<br>You can run Spark using its standalone cluster mode, on EC2, on Hadoop YARN, or on Apache Mesos. Access data in HDFS, Cassandra, HBase, Hive, Tachyon, and any Hadoop data source.</p>
 <p><em>One stack rule them all !!!</em></p>
-<p><strong>2. The Berkeley Data Analytics Stack</strong><br>实时流式计算：Stream Processing<br>批处理：Batch Process<br>点对点查询：Ad-hoc Queries</p>
-<p><strong>3.与hadoop对比</strong><br>hadoop为什么慢：额外的复制，序列化，磁盘IO开销<br>spark为什么快：内存计算，DAG优化</p>
-<p><strong>4.运行模式</strong><br>Local(多用于测试)<br>Standalone<br>Mesos<br>Yarn</p>
+<p><strong>3. The Berkeley Data Analytics Stack</strong><br>实时流式计算：Stream Processing<br>批处理：Batch Process<br>点对点查询：Ad-hoc Queries</p>
+<p><strong>4.与hadoop对比</strong><br>hadoop为什么慢：额外的复制，序列化，磁盘IO开销<br>spark为什么快：内存计算，DAG优化</p>
+<p><strong>5.spark运行模式</strong><br>Local(多用于测试)<br>Standalone<br>Mesos<br>Yarn</p>
+<h3 id="内核分析"><a href="#内核分析" class="headerlink" title="内核分析"></a>内核分析</h3><h3 id="spark介绍"><a href="#spark介绍" class="headerlink" title="spark介绍"></a>spark介绍</h3><p>Spark是起源于美国加州大学伯克利分校AMPLab的大数据计算平台，在2010年开源，目前是Apache软件基金会的顶级项目。随着Spark在大数据计算领域的暂露头角，越来越多的企业开始关注和使用。2014年11月，Spark在Daytona Gray Sort 100TB Benchmark竞赛中打破了由Hadoop MapReduce保持的排序记录。Spark利用1/10的节点数，把100TB数据的排序时间从72分钟提高到了23分钟[1]。</p>
+<p>Spark在架构上包括内核部分和4个官方子模块–Spark SQL、Spark Streaming、机器学习库MLlib和图计算库GraphX。图1所示为Spark在伯克利的数据分析软件栈BDAS [2]（Berkeley Data Analytics Stack）中的位置。可见Spark专注于数据的计算，而数据的存储在生产环境中往往还是由Hadoop分布式文件系统HDFS承担。</p>
+<p>###</p>
+<p>###</p>
+<p>###</p>
+<p>###</p>
+<p>###</p>
 <h2 id="spark集群搭建"><a href="#spark集群搭建" class="headerlink" title="spark集群搭建"></a>spark集群搭建</h2><p>生产搭建</p>
 <h2 id="spark-ui监控"><a href="#spark-ui监控" class="headerlink" title="spark-ui监控"></a>spark-ui监控</h2><h2 id="spark-streaming"><a href="#spark-streaming" class="headerlink" title="spark-streaming"></a>spark-streaming</h2>]]></content>
     </entry>
